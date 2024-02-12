@@ -1,3 +1,5 @@
+package conditional_loop;
+
 import java.util.Scanner;
 
 public class lowercase_uppercase {
