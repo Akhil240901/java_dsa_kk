@@ -1,4 +1,4 @@
-package loops_conditional;
+package method;
 
 public class pythagoreanTriplet {
     public static void main(String[] args) {
