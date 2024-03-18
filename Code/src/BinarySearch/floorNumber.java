@@ -1,12 +1,12 @@
 package BinarySearch;
 
-public class ceilingNumber {
+public class floorNumber {
     public static void main(String[] args) {
         int[] arr={1,3,4,7,11,15,34,36,38};
-        System.out.println(findCeil(arr,14)) ;
+        System.out.println(findCeil(arr,35)) ;
     }
 
-     static int findCeil(int[] arr, int target) {
+    static int findCeil(int[] arr, int target) {
         int start=0;
         int end=arr.length-1;
         int mid;
@@ -14,7 +14,7 @@ public class ceilingNumber {
         if(arr.length==0){
             return -1;
         }
-        while(start<end){
+        while(start<=end){
             mid=start+(end-start)/2;
             if(target<arr[mid]){
                 end=mid-1;   //if target element is lies in left side
@@ -24,6 +24,6 @@ public class ceilingNumber {
                 return mid;
             }
         }
-        return start;
+        return end;
     }
 }
