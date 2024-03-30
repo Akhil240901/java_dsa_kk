@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="bubble and selection sort">
-      <change afterPath="$PROJECT_DIR$/Code/src/BinarySearch/binarySearch2DfullySorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/BinarySearch/findInMountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/BinarySearch/searchInRotatedArray.java" afterDir="false" />
+    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="binary search problem">
+      <change afterPath="$PROJECT_DIR$/Code/src/cyclicSort/disapearedNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/cyclicSort/implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/cyclicSort/missingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/insertionSort/implementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.binarySearch2DfullySorted">
+  <component name="RunManager" selected="Application.missingNumber">
     <configuration name="binarySearch2DfullySorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch.binarySearch2DfullySorted" />
       <module name="Code" />
@@ -49,12 +50,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bubbleSort.bubbleSort" />
+    <configuration name="disapearedNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cyclicSort.disapearedNums" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bubbleSort.*" />
+          <option name="PATTERN" value="cyclicSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findInMountain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.findInMountain" />
+    <configuration name="implementation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cyclicSort.implementation" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="cyclicSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.searchInRotatedArray" />
+    <configuration name="implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="insertionSort.implementation" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="insertionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selectionSort.selectionSort" />
+    <configuration name="missingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cyclicSort.missingNumber" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selectionSort.*" />
+          <option name="PATTERN" value="cyclicSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.missingNumber" />
+        <item itemvalue="Application.disapearedNums" />
+        <item itemvalue="Application.implementation (1)" />
+        <item itemvalue="Application.implementation" />
         <item itemvalue="Application.binarySearch2DfullySorted" />
-        <item itemvalue="Application.searchInRotatedArray" />
-        <item itemvalue="Application.selectionSort" />
-        <item itemvalue="Application.bubbleSort" />
-        <item itemvalue="Application.findInMountain" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711165939218</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="binary search problem">
+      <created>1711187157438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711187157438</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" binary question" />
     <MESSAGE value="bubble and selection sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubble and selection sort" />
+    <MESSAGE value="binary search problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search problem" />
   </component>
 </project>
