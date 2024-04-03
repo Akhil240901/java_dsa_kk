@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="cyclic sort">
-      <change afterPath="$PROJECT_DIR$/Code/src/cyclicSort/findAllDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/cyclicSort/findDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/cyclicSort/firstMissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/cyclicSort/setMismatch.java" afterDir="false" />
+    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="cyclic sort problems">
+      <change afterPath="$PROJECT_DIR$/Code/src/String/palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.findDuplicate">
+  <component name="RunManager" selected="Application.palindrome">
     <configuration name="disapearedNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cyclicSort.disapearedNums" />
       <module name="Code" />
@@ -76,19 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertionSort.implementation" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="insertionSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="missingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cyclicSort.missingNumber" />
       <module name="Code" />
@@ -102,13 +86,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.palindrome" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.palindrome" />
         <item itemvalue="Application.findDuplicate" />
         <item itemvalue="Application.missingNumber" />
         <item itemvalue="Application.disapearedNums" />
         <item itemvalue="Application.implementation (1)" />
-        <item itemvalue="Application.implementation" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711757730918</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cyclic sort problems">
+      <created>1711761739133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711761739133</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +187,8 @@
     <MESSAGE value="binary search problem" />
     <MESSAGE value="insertion sort prblm" />
     <MESSAGE value="cyclic sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="cyclic sort" />
+    <MESSAGE value="cyclic sort problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="cyclic sort problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
