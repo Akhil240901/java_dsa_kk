@@ -15,6 +15,6 @@ public class palindrome {
                return false;
            }
        }
-       return  true;
+       return true;
     }
 }

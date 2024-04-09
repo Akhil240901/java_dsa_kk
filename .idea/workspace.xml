@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="cyclic sort problems">
-      <change afterPath="$PROJECT_DIR$/Code/src/String/palindrome.java" afterDir="false" />
+    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="palindrome">
+      <change afterPath="$PROJECT_DIR$/Code/src/String/reverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/String/palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/String/palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711761739133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="palindrome">
+      <created>1712116126302</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712116126302</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +196,8 @@
     <MESSAGE value="insertion sort prblm" />
     <MESSAGE value="cyclic sort" />
     <MESSAGE value="cyclic sort problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="cyclic sort problems" />
+    <MESSAGE value="palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
