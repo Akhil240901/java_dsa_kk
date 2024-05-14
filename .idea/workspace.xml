@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="reversing string">
-      <change afterPath="$PROJECT_DIR$/Code/src/pattern/first.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/pattern/second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/pattern/third.java" afterDir="false" />
+    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="pattern problems">
+      <change afterPath="$PROJECT_DIR$/Code/src/pattern/fourth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.third">
+  <component name="RunManager" selected="Application.fourth">
     <configuration name="first" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.first" />
       <module name="Code" />
@@ -49,12 +47,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.palindrome" />
+    <configuration name="fourth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.fourth" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fourth" />
         <item itemvalue="Application.third" />
         <item itemvalue="Application.second" />
         <item itemvalue="Application.first" />
         <item itemvalue="Application.reverseString" />
-        <item itemvalue="Application.palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712688542211</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="pattern problems">
+      <created>1715581773057</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715581773057</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +218,8 @@
     <MESSAGE value="cyclic sort problems" />
     <MESSAGE value="palindrome" />
     <MESSAGE value="reversing string" />
-    <option name="LAST_COMMIT_MESSAGE" value="reversing string" />
+    <MESSAGE value="pattern problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="pattern problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
