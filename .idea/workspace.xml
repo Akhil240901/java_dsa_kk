@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/Code/src/LinkedList/implementationLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/LinkedList/reverseLL.java" afterDir="false" />
+    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="linked list problems">
+      <change afterPath="$PROJECT_DIR$/Code/src/Stack/addElementAtBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Stack/implementationStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Stack/reverseStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,26 +35,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.reverseLL">
-    <configuration name="fifth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.fifth" />
+  <component name="RunManager" selected="Application.reverseStack">
+    <configuration name="addElementAtBottom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.addElementAtBottom" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fourth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.fourth" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pattern.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="print_n_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.print_n_Number" />
+    <configuration name="implementationStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.implementationStack" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,13 +88,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="reverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.reverseStack" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reverseStack" />
+        <item itemvalue="Application.addElementAtBottom" />
+        <item itemvalue="Application.implementationStack" />
         <item itemvalue="Application.reverseLL" />
         <item itemvalue="Application.implementationLL" />
-        <item itemvalue="Application.print_n_Number" />
-        <item itemvalue="Application.fifth" />
-        <item itemvalue="Application.fourth" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716828782779</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="linked list problems">
+      <created>1717919507001</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717919507001</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,7 +250,8 @@
     <MESSAGE value="reversing string" />
     <MESSAGE value="pattern problems" />
     <MESSAGE value="recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
+    <MESSAGE value="linked list problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
