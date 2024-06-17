@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="Queue implementation using LL" />
+    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment="interface implementation">
+      <change afterPath="$PROJECT_DIR$/Code/src/ArrayList/implementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Implementation">
+  <component name="RunManager" selected="Application.implementation (1)">
     <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interfaces.Implementation" />
       <module name="Code" />
@@ -57,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.implementation" />
+    <configuration name="implementation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayList.implementation" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="implementationStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.implementationStack" />
+    <configuration name="implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.implementation" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.implementation (1)" />
         <item itemvalue="Application.Implementation" />
         <item itemvalue="Application.implementation" />
         <item itemvalue="Application.reverseStack" />
         <item itemvalue="Application.addElementAtBottom" />
-        <item itemvalue="Application.implementationStack" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718521836839</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="interface implementation">
+      <created>1718521950232</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718521950232</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +279,8 @@
     <MESSAGE value="linked list problems" />
     <MESSAGE value="stack implementation and its  problems" />
     <MESSAGE value="Queue implementation using LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue implementation using LL" />
+    <MESSAGE value="interface implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
