@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment=" implementation">
-      <change afterPath="$PROJECT_DIR$/Code/src/Queue/ArrayDequeImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/Queue/PriorityQueueImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/src/Set/implementation.java" afterDir="false" />
+    <list default="true" id="579d73c3-348a-4fd1-9346-cac64db48421" name="Changes" comment=" implementation of all queue and set">
+      <change afterPath="$PROJECT_DIR$/Code/src/Map/implementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.implementation (2)">
+  <component name="RunManager" selected="Application.implementation (3)">
     <configuration name="ArrayDequeImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queue.ArrayDequeImp" />
       <module name="Code" />
@@ -62,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="implementation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayList.implementation" />
+    <configuration name="implementation (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Set.implementation" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayList.*" />
+          <option name="PATTERN" value="Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="implementation (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Set.implementation" />
+    <configuration name="implementation (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.implementation" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Set.*" />
+          <option name="PATTERN" value="Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.implementation (3)" />
         <item itemvalue="Application.implementation (2)" />
         <item itemvalue="Application.ArrayDequeImp" />
         <item itemvalue="Application.PriorityQueueImp" />
         <item itemvalue="Application.implementation" />
-        <item itemvalue="Application.implementation (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718595842367</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=" implementation of all queue and set">
+      <created>1718610790396</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1718610790396</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +303,8 @@
     <MESSAGE value="interface implementation" />
     <MESSAGE value="arraylist implementation" />
     <MESSAGE value=" implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value=" implementation" />
+    <MESSAGE value=" implementation of all queue and set" />
+    <option name="LAST_COMMIT_MESSAGE" value=" implementation of all queue and set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
