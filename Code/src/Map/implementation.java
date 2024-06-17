@@ -26,5 +26,10 @@ public class implementation {
         //either use putIfAbsent instead if condition
         mp.putIfAbsent("bhutan",1);
         System.out.println(mp);
+
+        //iterate through hashset
+        for(Map.Entry<String,Integer> e:mp.entrySet()){
+            System.out.println(e);
+        }
     }
 }
