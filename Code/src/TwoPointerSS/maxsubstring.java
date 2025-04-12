@@ -4,9 +4,9 @@ import java.util.HashMap;
 
 public class maxsubstring {
     public static void main(String[] args) {
-        String str="zxcvbnmzasdfghx";
-        int maxlength=maxSubStr(str);
-
+        String str="zxcvbncmzasdfghx";
+        //int maxlength=maxSubStr(str);
+        int maxlength=maxSubStr2(str);
         System.out.println(maxlength);
     }
    //bruteforch approach with TC:O(n2),  SC:O(n)
@@ -30,4 +30,23 @@ public class maxsubstring {
         }
         return maxLen;
     }
+
+    //Using two pointer approach
+    //TC:-O(n) SC:-O(n)
+   static  int maxSubStr2(String str){
+        HashMap<Character,Integer> map=new HashMap<>();
+        int left=0,maxLength=0,len=0;
+        for(int right=0;right<str.length();right++){
+            char c=str.charAt(right);
+            if(map.containsKey(c) && map.get(c)>=left){
+                left=map.get(c)+1;
+            }
+            len=right-left+1;
+            maxLength=Math.max(maxLength,len);
+            map.put(c,right);
+        }
+
+        return maxLength;
+
+   }
 }
